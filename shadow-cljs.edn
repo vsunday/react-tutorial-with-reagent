@@ -7,9 +7,9 @@
  :dependencies
  [[reagent "1.0.0-alpha2"]]
 
- :nrepl false
  :jvm-opts ["-Xmx512m"]
 
+ :nrepl {:port 9000}
  :dev-http {8080 "public"}
  :builds
  {:app
